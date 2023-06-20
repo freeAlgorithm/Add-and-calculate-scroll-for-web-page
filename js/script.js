@@ -1,14 +1,14 @@
-// window.onscroll=function() {myFunction()};
+ window.onscroll=function() {myFunction()};
 
-// function myFunction(){
-//     let absuloteHeight=document.body.scrollTop ||document.documentElement.scrollTop;
+ function myFunction(){
+     let absuloteHeight=document.body.scrollTop ||document.documentElement.scrollTop;
 
-//     let current_scroll_position=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+    let current_scroll_position=document.documentElement.scrollHeight-document.documentElement.clientHeight;
 
-//     let acutal_position=(absuloteHeight/current_scroll_position)*100;
+    let acutal_position=(absuloteHeight/current_scroll_position)*100;
 
-//     document.getElementById("myBar").style.width=acutal_position+"%";
-// }
+     document.getElementById("myBar").style.width=acutal_position+"%";
+}
 
 
 //////////////////// another solution//////////////////////////
